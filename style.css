@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    text-align: center;
+    background-color: grey;
+    color: black;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+header h1{
+    font-size: 1.5rem;
+    padding: 1rem;
+    font-weight: 500;
+}
+
+main{
+    margin: 0 2rem;
+}
+
+main h2{
+    padding: .5rem;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+main div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+main div .descripcion{
+    width: 80%;
+}
+
+main div .precio{
+    font-weight: 600;
+}
+
+main .total{
+    text-align: end;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+main .condiciones{
+    font-weight: 600;
+    text-align: center;
+}
+
